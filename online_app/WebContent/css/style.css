@@ -70,3 +70,16 @@ h1{
 .add_user{
   margin: 50px;
 }
+
+.create_user{
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #ccc;
+}
+
+.create_user_form{
+  text-align: right;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 3;
+}
