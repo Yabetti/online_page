@@ -75,6 +75,7 @@ h1{
   margin-right: auto;
   margin-left: auto;
   border: 1px solid #ccc;
+  width: 800px;
 }
 
 .create_user_form{
@@ -82,4 +83,5 @@ h1{
   margin-right: auto;
   margin-left: auto;
   line-height: 3;
+  width: 800px;
 }
