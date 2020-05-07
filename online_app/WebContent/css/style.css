@@ -12,7 +12,7 @@ header{
 
 .main{
   display:flex;
-	flex: 1;
+	flex: 1 0 auto;
 	width: 100%;
 	margin:0 auto;
 }
@@ -83,5 +83,20 @@ h1{
   margin-right: auto;
   margin-left: auto;
   line-height: 3;
+  width: 800px;
+}
+
+.confirm_create_user_form{
+  text-align: right;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 3;
+  width: 800px;
+}
+
+.confirm_create_user{
+  margin-right: auto;
+  margin-left: auto;
+  border: 1px solid #ccc;
   width: 800px;
 }
