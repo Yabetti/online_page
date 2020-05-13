@@ -26,7 +26,7 @@ footer{
   text-align:center;
   border: 5;
 }
-ul li{
+.main_menu li{
 	display: inline;
 	float:right;
 	width:18%;
@@ -42,11 +42,14 @@ ul li{
 }
 
 h1{
-    background-color: #73da72;
+    background-color: #E91E63;
+    font-family: "Meiryo UI";
+    color:white;
 }
 
 .login_submit{
   margin-left:auto;
+  text-align:right;
 }
 
 .login_content{
@@ -99,4 +102,63 @@ h1{
   margin-left: auto;
   border: 1px solid #ccc;
   width: 800px;
+}
+
+.confirm_create_user_form p{
+	text-align:left;
+}
+
+.sub_menu_list li {
+  list-style: none;
+  border: 2px solid #ccc;
+}
+
+.main nav{
+  margin-top: 0;
+}
+
+h2{
+  margin-top: 0;
+  text-align: center;
+}
+
+.sub_menu_list{
+  padding: 20px;
+  text-align: left;
+}
+.sub_menu{
+  margin-left: 50px;
+  width: 200px;
+  border: 2px solid black;
+}
+
+.iteam_button {
+  width: 155px;
+}
+
+.iteam_list {
+  width: 100%;
+  flex-wrap: wrap;
+  display: none;
+}
+
+.iteam_link {
+  display:block;
+  width: 250px;
+  height: 200px;
+  border: 1px solid black;
+  margin:20px;
+}
+
+.iteam_link p{
+  margin:0;
+}
+
+.iteam_img {
+    width:249;
+    height:180;
+}
+
+.iteam_name{
+    text-align: center;
 }
