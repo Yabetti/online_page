@@ -18,6 +18,7 @@ header{
 }
 footer{
   height:150px;
+  background-color: #a78c9647;
 }
 
 .main_title{
@@ -47,6 +48,14 @@ h1{
     color:white;
 }
 
+.main_img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+}
 .login_submit{
   margin-left:auto;
   text-align:right;
@@ -57,6 +66,17 @@ h1{
   margin: 50px;
   width: 50%;
 
+}
+
+.login_content p{
+  background-color: #f97fcb;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  margin: 0;
+  height: 50px;
+  padding-top: 25px;
 }
 
 .login_form{
@@ -70,7 +90,18 @@ h1{
   margin: 50px;
 }
 
+.create_user_content p{
+  background-color: #f97fcb;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  margin: 0;
+  height: 50px;
+  padding-top: 25px;
+}
 .add_user{
+  display: block;
   margin: 50px;
 }
 
@@ -81,6 +112,16 @@ h1{
   width: 800px;
 }
 
+.create_user p{
+  background-color: #f97fcb;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  margin: 0;
+  height: 50px;
+  padding-top: 25px;
+}
 .create_user_form{
   text-align: right;
   margin-right: auto;
@@ -136,10 +177,10 @@ h2{
   width: 155px;
 }
 
-.iteam_list {
+.fruits_iteam_list {
   width: 100%;
   flex-wrap: wrap;
-  display: none;
+  display:none;
 }
 
 .iteam_link {
@@ -155,10 +196,96 @@ h2{
 }
 
 .iteam_img {
-    width:249;
-    height:180;
+    width:249px;
+    height:170px;
 }
 
 .iteam_name{
     text-align: center;
+}
+
+.meet_iteam_list{
+  display: none;
+}
+
+.fish_iteam_list{
+  display: none;
+}
+
+.iteam_info{
+  width: 1000px;
+  margin-left: 50px;
+}
+
+.iteam_main{
+  display: flex;
+}
+.iteam_article{
+  width: 100%;
+}
+
+.iteam_test{
+  height: 100%;
+}
+
+.iteam_title{
+  height: 20%;
+  margin: 0;
+}
+
+.iteam_description{
+  height: 80%;
+  margin: 0;
+}
+
+.price{
+  margin-top: 10px;
+}
+
+.stock{
+  margin-top: 10px;
+}
+
+.bill_num{
+  margin-top: 10px;
+}
+
+.login_submit{
+  margin-top: 10px;
+  margin-left: 300px;
+}
+
+.iteam_info_main{
+  width: 500px;
+  margin-left: 50px;
+  border: 1px solid #ccc;
+}
+
+h3{
+  margin-top: 0;
+  margin-bottom: 0;
+  border: 1px solid #ccc;
+  height: 10%;
+}
+
+.iteam_info_result{
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 50px;
+  line-height: 2;
+}
+
+.iteam_result{
+  display: inline;
+  float: right;
+}
+
+.submit_iteam{
+  height: 90%;
+}
+
+.bill_submit{
+  margin-top: 50px;
+  margin-left: 70%;
+  width: 80px;
 }
